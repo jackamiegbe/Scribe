@@ -13,6 +13,7 @@
 		FAE477A31EA1AC0400E1A4C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAE477A21EA1AC0400E1A4C2 /* Assets.xcassets */; };
 		FAE477A61EA1AC0400E1A4C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAE477A41EA1AC0400E1A4C2 /* LaunchScreen.storyboard */; };
 		FAE477AE1EA1AE5B00E1A4C2 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE477AD1EA1AE5B00E1A4C2 /* RoundButton.swift */; };
+		FAE477B01EA1B30C00E1A4C2 /* test.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FAE477AF1EA1B30C00E1A4C2 /* test.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		FAE477A51EA1AC0400E1A4C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAE477A71EA1AC0400E1A4C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAE477AD1EA1AE5B00E1A4C2 /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		FAE477AF1EA1B30C00E1A4C2 /* test.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.m4a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		FAE4779A1EA1AC0400E1A4C2 /* Scribe */ = {
 			isa = PBXGroup;
 			children = (
+				FAE477AF1EA1B30C00E1A4C2 /* test.m4a */,
 				FAE4779B1EA1AC0400E1A4C2 /* AppDelegate.swift */,
 				FAE4779D1EA1AC0400E1A4C2 /* ViewController.swift */,
 				FAE4779F1EA1AC0400E1A4C2 /* Main.storyboard */,
@@ -127,6 +130,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAE477B01EA1B30C00E1A4C2 /* test.m4a in Resources */,
 				FAE477A61EA1AC0400E1A4C2 /* LaunchScreen.storyboard in Resources */,
 				FAE477A31EA1AC0400E1A4C2 /* Assets.xcassets in Resources */,
 				FAE477A11EA1AC0400E1A4C2 /* Main.storyboard in Resources */,

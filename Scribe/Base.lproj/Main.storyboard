@@ -51,6 +51,9 @@
                                         <real key="value" value="30"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="playBtnIsPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fOr-VB-nN4"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PLAY AND TRANSCRIBE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NBF-4k-6Jf">
                                 <rect key="frame" x="67" y="524.5" width="187" height="23.5"/>
@@ -91,6 +94,10 @@
                             <constraint firstItem="CQr-es-zrs" firstAttribute="top" secondItem="CkH-U5-q05" secondAttribute="bottom" constant="20" id="xdF-0C-3Iu"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="activitySpinner" destination="4cw-jO-UKE" id="ht3-gs-WTn"/>
+                        <outlet property="transcriptionTextField" destination="CkH-U5-q05" id="TXq-vz-Cmb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
